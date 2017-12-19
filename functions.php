@@ -12,3 +12,7 @@ function enddiv()
 {
   echo "</div>";
 }
+function navbar($title, $navigation = array())
+{
+  include('template/navbar.php');
+}
