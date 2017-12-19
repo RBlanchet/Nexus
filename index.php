@@ -6,4 +6,4 @@ include('layout/body.php');
 div('md', 5);
 p('Salut je mapelle romain');
 enddiv();
-navbar('Mon site');
+navbar('Mon site', array('Menu1', 'Menu2'));
