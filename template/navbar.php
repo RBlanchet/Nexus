@@ -7,9 +7,9 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
-            <?php foreach ($navigation as $value): ?>
+            <?php foreach ($navigation as $key => $value): ?>
               <li class="nav-item">
-                <a class="nav-link" href="#"><?= $value ?></a>
+                <a class="nav-link" href="<?= $value ?>"><?= $key ?></a>
               </li>
             <?php endforeach ?>
           </ul>
