@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 55.35 70.52">
+    <defs>
+        <style>.cls-1{fill:none;stroke:#3b3f3e;stroke-miterlimit:10;}</style>
+    </defs>
+    <title>Fichier 1</title>
+    <g id="Calque_2" data-name="Calque 2">
+        <g id="Слой_1" data-name="Слой 1">
+            <g id="_Groupe_" data-name="&lt;Groupe&gt;">
+                <rect id="_Rectangle_" data-name="&lt;Rectangle&gt;" class="cls-1" x="0.5" y="0.5" width="54.35"
+                      height="64.59"/>
+                <line id="_Tracé_" data-name="&lt;Tracé&gt;" class="cls-1" x1="0.84" y1="32.8" x2="55.2" y2="32.8"/>
+                <line id="_Tracé_2" data-name="&lt;Tracé&gt;" class="cls-1" x1="0.84" y1="16.85" x2="55.2" y2="16.85"/>
+                <line id="_Tracé_3" data-name="&lt;Tracé&gt;" class="cls-1" x1="0.84" y1="48.75" x2="55.2" y2="48.75"/>
+                <g id="_Groupe_2" data-name="&lt;Groupe&gt;">
+                    <circle id="_Tracé_4" data-name="&lt;Tracé&gt;" class="cls-1" cx="27.68" cy="8.48" r="1.87"/>
+                    <circle id="_Tracé_5" data-name="&lt;Tracé&gt;" class="cls-1" cx="27.68" cy="24.89" r="1.87"/>
+                    <circle id="_Tracé_6" data-name="&lt;Tracé&gt;" class="cls-1" cx="27.68" cy="40.62" r="1.87"/>
+                    <circle id="_Tracé_7" data-name="&lt;Tracé&gt;" class="cls-1" cx="27.68" cy="56.92" r="1.87"/>
+                </g>
+                <rect id="_Rectangle_2" data-name="&lt;Rectangle&gt;" class="cls-1" x="6.16" y="65.09" width="4.92"
+                      height="4.92"/>
+                <rect id="_Rectangle_3" data-name="&lt;Rectangle&gt;" class="cls-1" x="43.58" y="65.09" width="4.92"
+                      height="4.92"/>
+            </g>
+        </g>
+    </g>
+</svg>
