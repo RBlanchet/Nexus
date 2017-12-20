@@ -4,39 +4,38 @@ session_start();
 // On inclut le fichier de fonctions
 require_once('functions.php');
 
-// Si la session paragraphe n'est pas existante
-if(!isset($_SESSION['paragraphe']))
+if(!isset($_SESSION['html']))
 {
     // On initialise un tableau vide
-    $_SESSION['paragraphe'] = array();
-}
-if(!isset($_SESSION['input']))
-{
-    // On initialise un tableau vide
-    $_SESSION['input'] = array();
+    $_SESSION['html'] = "";
 }
 // Si on a envoyé un formulaire concernant une navbar
 if (isset($_POST['navbarName'])) {
     // On ajoute a la session le titre de la navbar
-    $_SESSION['navbar'] = $_POST['navbarName'];
-    $_SESSION['navbarLink'] = $_POST['navbarLink'];
+    navbar($_POST['navbarName'], $_POST['navbarLink']);
 }
 // Si on a envoyé un paragraphe
 if (isset($_POST['paragraph-content'])) {
     // On push le tableau afin que le paragraphe s'affiche
-    array_push($_SESSION['paragraphe'], $_POST['paragraph-content']);
+    $str = p($_POST['paragraph-content']);
+    $_SESSION['html'] .= $str;
 }
 // Si le formulaire concerne un container
 if (isset($_POST['container-fluid'])) {
-    $_SESSION['container'] = true;
+    $str = container(true);
+    $_SESSION['html'] = $str . $_SESSION['html'];
 }
 if (isset($_POST['container'])) {
-    $_SESSION['container'] = false;
+    $str = container(false);
+    $_SESSION['html'] = $str . $_SESSION['html'];
 }
 // Si le formulaire concerne un input
 if (isset($_POST['inputType'])) {
-    $tab = array($_POST['inputType'], $_POST['inputName']);
-    array_push($_SESSION['input'], $tab);
+    input($_POST['inputType'], $_POST['inputName']);
+}
+// Si le formulaire concerne la sauvegarde
+if (isset($_POST['pageName'])) {
+    save($_POST['pageName'], $_SESSION['html']);
 }
 // On effectue la redirection
 header('Location: index.php');

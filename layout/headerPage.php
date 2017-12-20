@@ -10,15 +10,15 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="../css/bootstrap.css" rel="stylesheet">
     <!-- Material Design Bootstrap -->
-    <link href="css/mdb.css" rel="stylesheet">
+    <link href="../css/mdb.css" rel="stylesheet">
     <!-- Custom CSS -->
-    <link href="css/style.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
     <!-- Normalize -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
     <!-- Scroll Reveal AOS -->
-    <link rel="stylesheet" href="css/aos.css"/>
+    <link rel="stylesheet" href="../css/aos.css"/>
     <!-- Modernizr -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js" type="text/javascript"></script>
+    <script src="https://s.codepen.io/assets/libs/modernizr.js" type="text/javascript"></script>
 </head>
